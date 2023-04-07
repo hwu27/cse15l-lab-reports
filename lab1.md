@@ -25,7 +25,7 @@ You should have something like this display:
 
 ![Image](md3.png)
 
-6. Here are some commands to try
+6. Here are some commands to try. cd .. will go back one directory. ls will show you the contents in the current directory. cd ~ will take you to your home directory.
 
 ![Image](md4.png)
 
