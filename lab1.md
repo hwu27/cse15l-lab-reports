@@ -20,7 +20,7 @@ Double check to make sure that you have the correct versions for your device.
 
 4 This should create a new bash command line in VSC
 
-5 Type in ssh [Insert your cse15l account here]@ieng6.ucsd.edu. Next, you should login with the password that you made when you reset your account.
+5 Type in ssh [Insert your cse15l account here]@ieng6.ucsd.edu. Next, you should login with the password that you made when you reset your account. (https://sdacs.ucsd.edu/~icc/index.php)
 
 You should have something like this display:
 
