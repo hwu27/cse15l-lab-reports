@@ -2,14 +2,14 @@
 **Huaming Wu**
 **A17526592**
 
-Adding hello!
+1. **Adding hello!**
 
 ![Image](Lab2_1.png)
 
-Adding goodbye
+2. **Adding goodbye**
 
 ![Image](lab2_2.png)
 
-Adding yahoo
+3. **Adding yahoo**
 
 ![Image](lab2_3.png)
