@@ -8,8 +8,8 @@ Adding hello!
 
 Adding goodbye
 
-![Image](Lab2_2.png)
+![Image](lab2_2.png)
 
 Adding yahoo
 
-![Image](Lab2_3.png)
+![Image](lab2_3.png)
