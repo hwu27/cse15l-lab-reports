@@ -27,14 +27,12 @@ If a port number is not given as the second parameter for java StringSerrver, it
 There is also a Server.start() method that starts the server using the start method from Server.java
 
 ## Part 2
-```
-{
 
 @Test 
-  public void testSumEvenLength5() {
+  public void testSumEvenLength5() 
+  ```
+{
     int[] input1 = { 12, 13, 7, 2, 33};
     assertEquals(EvensExample.sumEvenIndices(input1), 52);
-  }
-  
 }
 ```
