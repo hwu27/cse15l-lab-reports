@@ -28,9 +28,9 @@ There is also a Server.start() method that starts the server using the start met
 
 ## Part 2
 
-@Test 
-  public void testSumEvenLength5() 
   ```
+@Test 
+public void testSumEvenLength5() 
 {
     int[] input1 = { 12, 13, 7, 2, 33};
     assertEquals(EvensExample.sumEvenIndices(input1), 52);
