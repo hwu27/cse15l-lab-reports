@@ -28,10 +28,25 @@ There is also a Server.start() method that starts the server using the start met
 
 ## Part 2
 
-  ```
+**Example code**
+
+```
+class EvensExample {
+  static int sumEvenIndices(int[] nums) {
+    int sum = 0;
+    for(int i = 0; i < nums.length; i += 2) {
+      sum += nums[i + 1];
+    }
+    return sum;
+  }
+}
+```
+
+**Error Test**
+
+```
 @Test 
-public void testSumEvenLength5() 
-{
+public void testSumEvenLength5() {
     int[] input1 = { 12, 13, 7, 2, 33};
     assertEquals(EvensExample.sumEvenIndices(input1), 52);
 }
