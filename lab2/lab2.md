@@ -55,7 +55,7 @@ public void testReverseInPlace() {
 
 ```
 @Test 
-	public void testReverseInPlace() {
+public void testReverseInPlace() {
     int[] input1 = {3};
     ArrayExamples.reverseInPlace(input1);
     assertArrayEquals(new int[]{3}, input1);
@@ -70,3 +70,29 @@ Failure
 No Failure
 
 ![Image](Error.png)
+
+**Bug Fix**
+
+Bug
+
+```
+for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = arr[arr.length - i - 1];
+    }
+```
+
+Fix
+
+```
+for(int i = 0; i < arr.length/2; i += 1) {
+      int temp = arr[i];
+      arr[i] = arr[arr.length - i - 1];
+      arr[arr.length - i - 1] = temp;
+    }
+```
+
+This change fixed the issue because the original does not have a temporary variable that holds the original value of arr[i]. This makes it so that we are losing some int values due to the loop. Furthermore, we need to make sure that the loop loops arr.length/2 times so that the indices can be replaced accordingly. We need this since we are basically swapping the beginning indices with its corresponding end indices.
+
+## Part 3
+I feel like I was able to practice my debugging a lot more. I was able to learn. I have also been able to learn better how to impelement a server side program that makes my website a lot more dynamic. Lastly, I am becoming more comfortable using GitHub.
+
