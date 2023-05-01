@@ -45,9 +45,9 @@ static int[] reversed(int[] arr) {
 ```
 @Test 
 public void testReverseInPlace() {
-   int[] input1 = {3, 5};
+   int[] input1 = {3, 5, 6, 7};
    ArrayExamples.reverseInPlace(input1);
-   assertArrayEquals(new int[]{5, 3}, input1);
+   assertArrayEquals(new int[]{7, 6, 5, 3}, input1);
 }
 ```
 
