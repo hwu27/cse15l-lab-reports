@@ -1,4 +1,6 @@
 # StringServer
+**Huaming Wu**
+**A17526592**
 
 Adding hello!
 
