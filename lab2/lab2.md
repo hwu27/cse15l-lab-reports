@@ -23,7 +23,7 @@ goodbye
 
 ![Image](lab2_2.png)
 
-If a port number is not given as the second parameter for java StringSerrver, it will print out an error message.
+If a port number is not given as the second parameter for java StringServer, it will print out an error message.
 There is also a Server.start() method that starts the server using the start method from Server.java
 
 ## Part 2
@@ -94,5 +94,5 @@ for(int i = 0; i < arr.length/2; i += 1) {
 This change fixed the issue because the original does not have a temporary variable that holds the original value of arr[i]. This makes it so that we are losing some int values due to the loop. Furthermore, we need to make sure that the loop loops arr.length/2 times so that the indices can be replaced accordingly. We need this since we are basically swapping the beginning indices with its corresponding end indices.
 
 ## Part 3
-I feel like I was able to practice my debugging a lot more. I was able to learn. I have also been able to learn better how to impelement a server side program that makes my website a lot more dynamic. Lastly, I am becoming more comfortable using GitHub.
+I feel like I was able to practice my debugging a lot more. I have also been able to learn how to better impelement a server side program that makes my website a lot more dynamic. Lastly, I am becoming more comfortable using GitHub.
 
