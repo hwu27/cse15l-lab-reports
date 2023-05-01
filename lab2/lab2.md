@@ -1,4 +1,4 @@
 # StringServer
-![Image] lab2 1.png
-![Image] lab2 2.png
-![Image] lab2 3.png
+![Image] lab2_1.png
+![Image] lab2_2.png
+![Image] lab23.png
