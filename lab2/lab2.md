@@ -1,8 +1,9 @@
 # StringServer
 **Huaming Wu**
+
 **A17526592**
 
-**Code:**
+Code:
 ![Image](lab2_code1.png)
 ![Image](lab2_code2.png)
 
