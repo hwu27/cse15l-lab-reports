@@ -61,3 +61,12 @@ public void testReverseInPlace() {
     assertArrayEquals(new int[]{3}, input1);
 }
 ```
+**Outputs**
+
+Failure
+
+![Image](Error2.png)
+
+No Failure
+
+![Image](Error.png)
