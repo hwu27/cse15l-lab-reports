@@ -15,6 +15,3 @@ Code:
 
 ![Image](lab2_2.png)
 
-3. **Adding yahoo**
-
-![Image](lab2_3.png)
