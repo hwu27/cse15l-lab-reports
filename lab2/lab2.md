@@ -31,23 +31,22 @@ There is also a Server.start() method that starts the server using the start met
 **Example code**
 
 ```
-class EvensExample {
-  static int sumEvenIndices(int[] nums) {
-    int sum = 0;
-    for(int i = 0; i < nums.length; i += 2) {
-      sum += nums[i + 1];
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
     }
-    return sum;
+    return arr;
   }
-}
 ```
 
 **Error Test**
 
 ```
 @Test 
-public void testSumEvenLength5() {
-    int[] input1 = { 12, 13, 7, 2, 33};
-    assertEquals(EvensExample.sumEvenIndices(input1), 52);
+public void testReverseInPlace() {
+   int[] input1 = {3, 5};
+   ArrayExamples.reverseInPlace(input1);
+   assertArrayEquals(new int[]{5, 3}, input1);
 }
 ```
