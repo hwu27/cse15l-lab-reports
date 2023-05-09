@@ -125,3 +125,5 @@ chapter-10.txt  chapter-13.2.txt  chapter-2.txt     chapter-7.txt
 chapter-11.txt  chapter-13.3.txt  chapter-3.txt     chapter-8.txt
 chapter-12.txt  chapter-13.4.txt  chapter-5.txt     chapter-9.txt
 ```
+
+All the examples from this page are from https://en.wikibooks.org/wiki/Grep
