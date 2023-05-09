@@ -11,7 +11,9 @@ chapter-10.txt  chapter-12.txt  chapter-13.2.txt  chapter-13.4.txt  chapter-2.tx
 ```
 1. **grep -i**
 
+```
 In this example, I am using grep to find files that start with chapter. When I add on -i as an additional command line option, it will make it so that uppercase or lowercase is ignored. I will be using ls combined with | to redirect the output of ls into the grep command. If you just use grep CHAPTER in the 911report directory, it will not show anything. This can be helpful to make sure that there are no typing errors where you have an accidental capital letter like l instead of I.
+```
 
 Example 1:
 
