@@ -13,14 +13,14 @@ In this example, I am using grep to find files that start with chapter. When I a
 Example 1:
 
 ```
-[cs15lsp23oy@ieng6-202]:911report:243$ **ls | grep chapter**
+[cs15lsp23oy@ieng6-202]:911report:243$ ls | grep chapter
 
 chapter-1.txt   chapter-13.1.txt  chapter-13.5.txt  chapter-6.txt  preface.txt
 chapter-10.txt  chapter-13.2.txt  chapter-2.txt     chapter-7.txt
 chapter-11.txt  chapter-13.3.txt  chapter-3.txt     chapter-8.txt
 chapter-12.txt  chapter-13.4.txt  chapter-5.txt     chapter-9.txt
 
-[cs15lsp23oy@ieng6-202]:911report:243$ **ls | grep -i CHAPTER**
+[cs15lsp23oy@ieng6-202]:911report:243$ ls | grep -i CHAPTER
 
 chapter-1.txt   chapter-13.1.txt  chapter-13.5.txt  chapter-6.txt  preface.txt
 chapter-10.txt  chapter-13.2.txt  chapter-2.txt     chapter-7.txt
