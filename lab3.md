@@ -9,7 +9,7 @@ This is the current directory:
 chapter-1.txt   chapter-11.txt  chapter-13.1.txt  chapter-13.3.txt  chapter-13.5.txt  chapter-3.txt  chapter-6.txt  chapter-8.txt  preface.txt
 chapter-10.txt  chapter-12.txt  chapter-13.2.txt  chapter-13.4.txt  chapter-2.txt     chapter-5.txt  chapter-7.txt  chapter-9.txt
 ```
-1. **grep -i**
+1 **grep -i**
 
 
 In this example, I am using grep to find files that start with chapter. When I add on -i as an additional command line option, it will make it so that uppercase or lowercase is ignored. I will be using ls combined with `|` to redirect the output of ls into the grep command. If you just use grep CHAPTER in the 911report directory, it will not show anything. This can be helpful to make sure that there are no typing errors where you have an accidental capital letter like l instead of I.
@@ -45,7 +45,7 @@ Prior to 9/11, it was understood that an order to shoot down a commercial aircra
     FAA: Hi. Boston Center TMU [Traffic Management Unit], we have a problem here. We have a hijacked aircraft headed towards New York, and we need you guys to, we need someone to scramble some F-16s or something up there, help us out.
 ```
    
-2. **grep -c**
+2 **grep -c**
 
 grep - c acts similarly to wc. It will give the number of lines that contain the input. This can be useful in checking whether or not a file has an expected number of words or number of lines. It gives a general idea of what the file may contain.
 
@@ -67,7 +67,7 @@ Example 2:
 
 ```
 
-3. **grep -n
+3 **grep -n**
 
 This option is very usefulf for finding the actual line a word occurs in. This can help narrow down the search for specific topics in text files dramatically.
 
@@ -103,7 +103,7 @@ ls | grep -n 2
 4:chapter-12.txt  chapter-13.4.txt  chapter-5.txt     chapter-9.txt
 ```
 
-4. **grep -v**
+4 **grep -v**
 
 This will show all the lines that do not contain the input. This can be useful if there is a lot of information and you want to cut down on the information you don't want to see. In this case, I would remove all lines containin FDNY if I don't want to read about them.
 
