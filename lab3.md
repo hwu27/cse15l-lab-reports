@@ -107,8 +107,9 @@ ls | grep -n 2
 
 This will show all the lines that do not contain the input. This can be useful if there is a lot of information and you want to cut down on the information you don't want to see. In this case, I would remove all lines containin FDNY if I don't want to read about them.
 
-```
 Example 1:
+
+```
 [cs15lsp23oy@ieng6-202]:911report:263$ cat chapter-9.txt | grep -v FDNY
 
 Example text:
@@ -120,8 +121,9 @@ reported to have contained only a handful of descending civilians at an earlier
 ```
 If there are files that you do not currently need, this can help you find the files you do need.
 
-```
 Example 2:
+
+```
 cs15lsp23oy@ieng6-202]:911report:280$ ls | grep -v preface 
 chapter-10.txt  chapter-13.2.txt  chapter-2.txt     chapter-7.txt
 chapter-11.txt  chapter-13.3.txt  chapter-3.txt     chapter-8.txt
