@@ -10,7 +10,7 @@ Note:
   I start off with copying my ssh details from the note app that I have on my desktop
   <Left-Click> <Left-Click> <Ctrl-C> <Alt->Tab>
   In the actual terminal:
-  <Ctrl-V> <Enter>
+  `<Ctrl-V> <Enter>`
 
   ![image](https://github.com/hwu27/cse15l-lab-reports/assets/130116077/8828be34-02f1-4569-9492-c4927adfaadf)
 
