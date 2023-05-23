@@ -49,5 +49,7 @@ Note:
   git <space> commit <space> -m "update" L `<Tab>` . j `<Tab>`
   ![image](https://github.com/hwu27/cse15l-lab-reports/assets/130116077/3017134d-085b-4d1f-9030-0eec7b535579)
   
-  git `<space> <Alt-Tab> <Left-Click> <Left-Click> <Left-Click> <Ctrl-C> <Alt->Tab>`
+  git `<space> <Alt-Tab> <Left-Click> <Left-Click> <Left-Click> <Ctrl-C> <Alt->Tab> <Ctrl-V> <Enter>`
+
+  ![image](https://github.com/hwu27/cse15l-lab-reports/assets/130116077/51708bff-7169-4d00-96cb-14e7886020ff)
 
