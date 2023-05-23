@@ -42,7 +42,7 @@ Note:
 
 **7** Editing
   
-  I use vim and tab to find the file I need to edit and then enter the editor. I use / in order to search for the wordd change.
+  I use vim and tab to find the file I need to edit and then enter the editor. I use / in order to search for the word change.
   I find that I only need to enter cha in order to find it. From there, I just used j l l as a way to move my way down and to the right.
   Lastly, I clicked r to replace 1 with 2 in index1. I then used :wq to save my work and exit.
   
