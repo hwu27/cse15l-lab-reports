@@ -6,5 +6,5 @@
 
 ![image](https://github.com/hwu27/cse15l-lab-reports/assets/130116077/b950261b-a210-48d6-987c-178cb55d93d2)
 
-![image](https://github.com/hwu27/cse15l-lab-reports/assets/130116077/ee10d5d8-2729-4676-aaf9-78f726178ea8)
+![image](https://github.com/hwu27/cse15l-lab-reports/assets/130116077/51fdf20d-2f88-47cb-adad-0f3c9ddd2bfc)
 
