@@ -34,3 +34,8 @@ Using .equals() instead
 Running the new code:
 
 ![image](https://github.com/hwu27/cse15l-lab-reports/assets/130116077/268c0eaf-b7a7-4c27-930d-49883c197028)
+
+Problem:
+The problem was a few things. I first needed to make sure that I kept the args index in mind. Since I wrote my code in a way that needed 3 arguments,
+I need to make sure I was providing 3. I added a filler argument so that the code can run correctly. Secondly, I used ==, which incorrectly compared the
+String to check if it was add. I fixed it using .equals(). I also did my math wrong :(.
